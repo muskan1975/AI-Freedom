@@ -1107,7 +1107,10 @@ body {
     flex-direction: column;
 }
 .Masterclass {
+   margin: auto;
     font-size: 1.2rem;
+    width: 23rem;
+    padding-top: 1rem;
 }
 .free-info {
     width: 20rem;
