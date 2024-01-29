@@ -9,7 +9,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color:rgb(41, 61, 150);
     color: #ffffff;
 }
 .hm-btn{
@@ -27,35 +27,41 @@ body{
     margin-top: 2rem;
 }
 .Homesrc2 {
-    width: 36rem;
+    display: none !important;
+      width: 36rem;
     height: auto;
     margin: auto;
     display: flex;
     margin-right: 23.5rem;
     margin-top: -1.2rem;
 }
+.ai{
+    text-decoration:underline red !important;
+    
+}
 .Title{
-    margin-top: -10rem;
+    /* margin-top: 0rem; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size: 5rem;
+    margin-top: 1rem;
+    font-size: 4rem;
 }
 .Income h1{
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     text-align: center;
-    font-family: Space Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
 .Income p{
     margin-top: 0.4rem;
     text-align: center;
     font-size: 1.5rem;
-    font-family: Space Georgia, 'Times New Roman', Times, serif;
 }
 #HomeVContainer{
-    margin: auto;
-    width: 600px; 
+    margin: 0rem auto;
+    width: 700px; 
     height: 400px; 
-    margin-top: 1rem;
     display: flex;
 }
 .HomeBContainer{
@@ -71,7 +77,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(to left, blue,rgb(82, 187, 82));
+    background-image: linear-gradient(to left, rgb(138, 8, 123),rgb(121, 121, 241));
     
 }
 .Masterclass{
@@ -82,14 +88,15 @@ body{
 }
 .TimingContainer{
     margin: auto;
+    margin-top: 4rem !important;
     width: 60rem;
     height: 7rem;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    background-image: linear-gradient(to left, blue,rgb(82, 187, 82));
+margin:  1rem auto;
+    background-image: linear-gradient(to left, rgb(10, 117, 119),rgb(232, 127, 108));
     border: 2px solid #ffffff;
     border-radius: 2rem;
     gap: 4.5rem;
@@ -112,8 +119,14 @@ body{
 
 
 }
+.rs1{
+    font-size: 2rem !important;
+   margin-top: 2rem !important;
+}
 .Risk{
     margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 .BusnessExamples{
     display: flex;
@@ -129,7 +142,7 @@ body{
     font-weight: normal;
 }
 .ActionNow{
-    background-color: rgb(17, 180, 245);
+    background-color: palevioletred;
     margin-top: 1rem;
     font-size: 1.3rem;
     padding: 1rem;
@@ -154,7 +167,8 @@ body{
     width: 30rem;
     gap: 2rem;
     font-size: 1rem;
-    border: 2px solid green;
+    border: 2px solid rgb(32, 210, 250);
+    box-shadow: 0px 0px 5px 0px;
     padding: 1rem;
     border-radius: 2rem;
 }
@@ -187,7 +201,8 @@ body{
     margin: auto;
     display: flex;
     width: 30rem;
-    height: 5rem;
+    height: 10rem;
+    border-radius: 1rem;
     margin-top: 2rem;
 }
 .MainContainer5{
@@ -199,16 +214,16 @@ body{
     margin-top: 2rem;
 }
 .grrentxt{
-    color: green;
-    font-size: 2.5rem;
+    color: rgb(233, 144, 85);
+    font-size: 2rem;
 }
 .firstpara{
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 0rem 4rem;
     text-align: center;
 }
 .secondpara{
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding:0rem 4rem;
     text-align: center;
     margin-top: 1rem;
@@ -218,7 +233,10 @@ body{
     margin: auto;
     display: flex;
     width: 70rem;
-    height: 40rem;
+    height: 30rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 0px blueviolet;
+    border-radius: 1rem;
 }
 .spanbox{
     display: flex;
@@ -227,24 +245,25 @@ body{
 
 }
 .bonuses{
-    margin-top: 3rem;
+    margin-top: -1rem;
+    font-size: 2rem;
 }
 .MainContainer6{
     display: flex;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .green{
-    color: rgb(38, 241, 164);
-    padding-bottom: 3rem;
+    color: rgb(233, 144, 85);
+    padding-bottom: 1rem;
 }
 .bonus1{
     height: auto;
     width: 28rem;
     border-radius: 1rem;
-    border: 0.2rem solid rgb(37, 226, 154);
+    border: 0.2rem solid rgb(37 143 226);
     padding: 1rem ;
     display: flex;
     box-shadow: 0px 0px 10px 0px rgb(37, 226, 154);
@@ -271,8 +290,8 @@ body{
     width: 65rem;
     font-size: 1.5rem;
     text-align: center;
-    padding: 3rem 0rem;
-    margin-bottom: -4rem;
+    padding: 2rem 0rem;
+    margin-bottom: -3rem;
 }
 
 
@@ -281,18 +300,19 @@ body{
     height: auto;
     padding: 2rem;
     width: 100%;
-    background-color: black;
+    /* background-color: rgb(4, 24, 74); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 1rem;
 }
 .test-head{
     font-size: 2rem;
 }
 .test-info{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
 }
 .test1{
@@ -302,7 +322,7 @@ body{
 .testimonials-boxes{
     display: flex;
     gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .testimonials-box{
     display: flex;
@@ -313,7 +333,7 @@ body{
     height: auto;
     padding: 1rem 0.5rem;
     width: 25rem;
-    background-image: linear-gradient(rgba(82, 59, 101, 0.677),rgba(20, 4, 77, 0.364));
+    background-image: linear-gradient(rgba(195, 134, 245, 0.677),rgba(8, 56, 119, 0.364));
     border-radius: 2rem;
     border: 3px solid rgb(33, 2, 40);
     display: flex;
@@ -356,14 +376,18 @@ body{
     cursor: pointer;
 }
 .Homebtn:hover{
-    background-image: linear-gradient(to left, blue,rgb(82, 187, 82));
+    background-image: linear-gradient(to left, rgb(138, 8, 123),rgb(121, 121, 241));
 
 }
 .for-head{
-    padding-left: 3rem;
+    padding-left: 0rem;
     font-size: 2.5rem;
 }
-.for.container{
+.for-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 .for-img{
@@ -382,15 +406,19 @@ body{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    align-items: center;
+    justify-content: center;
     margin-top: 2rem;
 }
 .enter{
     width: 20rem;
+    border-radius: 2rem;
     height: 25rem;
 }
 .market{
-    width: 30rem;
-    height: 35rem;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 2rem;
 }
 .for-para{
     font-size: 1.8rem;
@@ -401,6 +429,7 @@ body{
 .future-text{
     color: rgb(16, 225, 152);
     font-size: 1.3rem;
+    margin-top: -2rem;
 }
 #linkedin{
     font-size: 30px !important;
@@ -420,21 +449,27 @@ body{
     padding: 3rem 0rem;
     font-size: 1.2rem;
     text-align: center;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
 }
 .rock-img{
-    height: 40rem;
-    width: 70rem;
+    height: 30rem;
+    width: 65rem;
 }
 .btw-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -4rem;
 }
 .btw-boxes{
     display: flex;
     gap: 3rem;
-    margin: 2rem 0rem;
+    margin: -1rem 0rem;
+}
+.fq{
+    margin-top: -2rem !important;
 }
 .percent-box{
     height: auto;
@@ -458,11 +493,6 @@ body{
    width: 2rem;
    border-radius: 50%;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
 .faq-container {
    width: 60rem;
     margin: 1rem auto;
@@ -474,6 +504,7 @@ body {
 }
 .rock-head{
     margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .faq-item {
@@ -488,15 +519,16 @@ body {
 
 }
 .question:hover{
-    background-color: rgb(67 107 98);
+    background-color: rgb(146, 31, 104);
+    color: black;
 }
 
 .answer {
-    color:#c6b6b6;
+    color: black;
     font-size: 1.3rem;
     display: none;
     padding: 1rem;
-    background-color: #0e2f2f;
+    background-color: #aa91f5;
 
 
 }
@@ -523,6 +555,7 @@ body {
     align-items: center;
     gap: 4rem;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 .mentor{
     height: 25rem;
@@ -546,17 +579,19 @@ body {
     width: 65rem;
     font-size: 1.8rem;
     padding: 1rem;
+    text-align: center;
 }
 .ai-race{
     width: 63rem;
-    font-size: 1.7rem;
+    text-align: center;
     margin-bottom: 4rem;
+    font-size: 1.7rem;
     color: rgb(45, 240, 191);
 }
 .footerSide{
     width: 100%;
     height: 5rem;
-    background-color: rgb(28, 28, 158);
+    background-color: rgb(8, 120, 151);
     border: 2px solid #ffffff;
     padding: 0 1rem;
     display: flex;
@@ -607,7 +642,7 @@ body {
     font-size: 0.9rem;
 }
 .btn2{
-    background-color: #03e2a8;
+    background-color: #e74f9d;
     color: #000000;
     text-decoration: none;
     padding: 10px 20px;
@@ -617,6 +652,10 @@ body {
     margin-right: 20px;
 }
 @media (min-width :769px) and (max-width:1023px) {
+    .rs1 {
+        font-size: 1.2rem !important;
+        margin-top: 3rem !important;
+    } 
     .Title {
         font-size: 3rem;
         margin-top: 0.5rem;
@@ -632,11 +671,14 @@ body {
 }
 .TimingContainer {
     width: 47rem;
-    margin-top: 0rem;
+    margin-top: 3rem !important;
 }
 .Imgsrc1 {
     width: 11rem;
     height: 11rem;
+}
+.firstpara{
+    font-size: 1.5rem;
 }
 .BusnessExamples {
     display: flex;
@@ -655,7 +697,7 @@ body {
 }
 .Aisrc {
     width: 43rem;
-    height: 25rem;
+    height: 20rem;
 }
 .bonus1 {
     height: auto;
@@ -686,19 +728,42 @@ body {
     }
     .for-para{
         width: 46rem;
+        
+    }
+    .secondpara{
+        font-size: 1.5rem;
+    }
+    .grrentxt{
+        font-size: 1.5rem;
     }
     .future-text{
         font-size: 25px;
     }
     .for-head {
-        padding-left: 1rem;
-        font-size: 1.5rem;
+        padding-left: 0rem;
+        font-size: 2rem;
+    }
+    .testimonials{
+        margin-top: 0rem;
+    }
+    .clocksrc{
+        width: 20rem;
+        height: 7rem;
+    }
+    .rm-bold{
+        text-align: center;
+    }
+    .rm-span{
+        text-align: center;
     }
     .rock-info {
         width: 47rem;
     }
+    .rock-head{
+        margin-top: 0rem;
+    }
     .rock-img {
-        height: 30rem;
+        height: 20rem;
         width: 46rem;
     }
     .test-info{
@@ -724,6 +789,8 @@ body {
     }
     .act-info {
         width: 48rem;
+        margin-top: -2rem;
+        font-size: 1.5rem;
     }
     .ai-race {
         width: 46rem;
@@ -731,10 +798,17 @@ body {
     }
 }
 @media (min-width :499px) and (max-width:769px) {
+    .rs1 {
+        font-size: 1rem !important;
+        margin-top: 3rem !important;
+    }
     
     .Title {
         font-size: 2rem;
         margin-top: 0.5rem;
+    }
+    .Income p{
+        font-size: 1.3rem !important;
     }
 .Homesrc2 {
     display: none !important;
@@ -761,7 +835,7 @@ body {
     padding: 1rem 0rem;
     gap: 2.5rem;
     flex-direction: column;
-    margin-top: 0rem;
+    margin-top: 2rem !important;
 }
 .Exclemetrysrc{
     height: 6rem;
@@ -769,7 +843,7 @@ body {
     width: 6rem;
 }
 .Risk {
-    margin-top: 3rem;
+    margin-top: 6rem;
     font-size: 1.5rem;
 }
 .Imgsrc1 {
@@ -794,21 +868,26 @@ body {
 .MasterClass1{
     width: 25rem;
 }
+.clocksrc{
+    width: 20rem ;
+    height: 7rem;
+}
 .Twittersrc {
     width: 29rem;
     height: 15rem;
+    margin-top: 2rem ;
 }
 .grrentxt {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .firstpara {
     width: 32rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0rem 1rem;
 }
 .secondpara{
     width: 32rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0rem 1rem;
 }
 .Aisrc {
@@ -844,6 +923,7 @@ body {
     width: 32rem;
     font-size: 1.3rem;
     padding: 1rem 0rem;
+    margin-bottom: 0rem ;
 }
 .MainContainer6 {
     margin-bottom: -1rem;
@@ -866,11 +946,14 @@ body {
     }
     .for-para{
         width: 26rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .future-text{
         text-align: center;
         font-size: 23px;
+    }
+    .bonuses{
+        margin-top: 1rem;
     }
     .for-head {
         padding-left: 1rem;
@@ -878,9 +961,11 @@ body {
     }
     .rock-info {
         width: 29rem;
+        margin-bottom: -2rem;
     }
     .rock-img {
         height: 21rem;
+        margin-top: 1rem;
         width: 30rem;
     }
     .market{
@@ -914,6 +999,8 @@ body {
     }
     .rm-span{
         width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
     }
     .remember-container{
         display: flex;
@@ -925,7 +1012,9 @@ body {
     }
     .rm-bold {
         width: 100% !important;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -2rem
     }
     .btw-boxes {
         display: flex;
@@ -942,17 +1031,27 @@ body {
     .faq-container{
         width:100%;
     }
+    .rock-head {
+        margin-bottom: 0rem;
+        margin-top: 2rem;
+    }
+    .question{
+        font-size: 1.2rem;
+    }
+    .answer{
+        font-size: 1.2rem;
+    }
     .remember-container{
         flex-direction: column;
     }
     .act-info {
         width: 100% !important;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         padding: 1rem 0rem;
     }
     .ai-race {
         width: 100% !important;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .greencl {
         font-weight: bolder;
@@ -974,15 +1073,20 @@ body {
     }
 }
 @media (min-width :349px) and (max-width:499px) {
+    .rs1 {
+        font-size: 1rem !important;
+        margin-top: 3rem !important;
+        margin-bottom: 0.5rem !important;
+    }
     .Homesrc{
         width: 13rem;
     }
     .Title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-top: 0.5rem;
     }
     .Income h1 {
-        margin-top: 1rem;
+        margin-top: -6rem;
         font-size: 1.2rem;
     }
 .Homesrc2 {
@@ -996,8 +1100,7 @@ body {
 }
 #HomeVContainer{
     width: 300px !important;
-    margin-top: -5rem;
-    margin-bottom: -5rem;
+    margin-top: -8rem;
 }
 .Income p {
     margin-top: 0.4rem;
@@ -1015,7 +1118,10 @@ body {
     padding: 1rem 0rem;
     gap: 2.5rem;
     flex-direction: column;
-    margin-top: 0rem;
+    margin-top: 2rem !important;
+}
+.bonuses{
+    margin-top: 1rem;
 }
 .Exclemetrysrc{
     height: 4rem;
@@ -1025,9 +1131,9 @@ body {
     display: none;
 }
 .Risk {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     font-size: 1.1rem;
 }
 .Imgsrc1 {
@@ -1060,8 +1166,12 @@ body {
     font-size: 1.3rem;
 }
 .clocksrc{
-    width: 21rem;
-    height: 4rem;
+    width: 13rem;
+    height: 5rem;
+}
+.rock-head {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 .firstpara {
     width: 22rem;
@@ -1107,7 +1217,7 @@ body {
     flex-direction: column;
 }
 .Masterclass {
-   margin: auto;
+    margin: auto;
     font-size: 1.2rem;
     width: 18rem;
     padding-top: 1rem;
@@ -1154,7 +1264,7 @@ body {
     }
     .question {
         color: white;
-        font-size: 17px;
+        font-size: 14px;
         padding: 1rem 1rem;
     }
     .for-head {
@@ -1170,6 +1280,7 @@ body {
         width: 22rem;
         padding: 2rem 0rem;
         margin-top: -3rem;
+        margin-bottom: -2rem;
     }
     .rock-img {
         height: 13rem;
@@ -1287,6 +1398,9 @@ body {
     .footerSide{
         height: 4rem;
     }
+    .answer{
+        font-size: 14px;
+    }
     .rup {
         margin-top: 0.3rem;
         font-size: 12px;
@@ -1295,16 +1409,21 @@ body {
 
 }
 @media (min-width :270px) and (max-width:349px) {
+    .rs1 {
+        font-size: 12px !important;
+        margin-top: 3rem !important;
+        margin-bottom: 0.5rem !important;
+    }
     .Homesrc{
         width: 12rem;
     }
     .Title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-top: 0.5rem;
     }
     .Income h1 {
-        margin-top: 1rem;
-        font-size: 1.2rem;
+        margin-top: 0rem;
+        font-size: 14px;
     }
 .Homesrc2 {
     display: none !important;
@@ -1317,11 +1436,12 @@ body {
 }
 #HomeVContainer{
     width: 250px !important;
-    margin-top: -7rem;
+    margin-top: -9rem;
     margin-bottom: -7rem;
 }
 .Income p {
     margin-top: 0.4rem;
+    padding: 0rem 0.2rem;
     font-size: 1rem;
 }
 .HomeBContainer {
@@ -1336,7 +1456,10 @@ body {
     padding: 1rem 0rem;
     gap: 2.5rem;
     flex-direction: column;
-    margin-top: 0rem;
+    margin-top: 1rem !important;
+}
+.bonuses{
+    margin-top: 1rem;
 }
 .Exclemetrysrc{
     height: 4rem;
@@ -1344,8 +1467,8 @@ body {
     width: 4rem;
 }
 .Risk {
-    margin-top: 3rem;
-    margin-left: -1rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
     font-size: 14px;
 }
 .Imgsrc1 {
@@ -1379,8 +1502,8 @@ body {
     font-size: 1rem;
 }
 .clocksrc{
-    width: 16rem;
-    height: 3rem;
+    width: 12rem;
+    height: 5rem;
     margin-top: 1rem;
 }
 .firstpara {
@@ -1428,6 +1551,7 @@ body {
 .MsMainContainer1 {
     display: flex;
     flex-direction: column;
+    margin-top: 0rem;
 }
 .Masterclass {
     font-size: 1.2rem;
@@ -1436,6 +1560,7 @@ body {
     width: 17rem;
     font-size: 1.1rem;
     padding: 0rem 0rem;
+    margin-bottom: 0rem !important;
 }
 .MainContainer6 {
     margin-bottom: -1rem;
@@ -1478,12 +1603,18 @@ body {
     }
     .question {
         color: white;
-        font-size: 17px;
+        font-size: 13px;
         padding: 1rem 1rem;
     }
+    .answer{
+        font-size: 14px;
+    }
+    .btw{
+        font-size: 30px !important;
+    }
     .for-head {
-        padding-left: 1rem;
-        font-size: 11px;
+        padding-left: 0rem;
+        font-size: 12px;
     }
     #linkedin{
         font-size: 17px !important;
@@ -1494,6 +1625,9 @@ body {
     .rock-info {
         width: 16rem;
         padding: 2rem 0rem;
+        margin-top: -3.5rem;
+        margin-bottom: -3rem;
+        font-size: 13px;
     }
     .rock-img {
         height: 11rem;
@@ -1546,7 +1680,8 @@ body {
     }
     .rm-span{
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 14px;
+        text-align: center;
     }
     .remember-container{
         display: flex;
@@ -1556,9 +1691,19 @@ body {
     .remember-info{
         width: 100% !important;
     }
+    .fq{
+        margin-top: 0rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .as{
+        font-size: 18px !important;
+
+    }
     .rm-bold {
         width: 100% !important;
-        font-size: 1.2rem;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -3rem;
     }
     .btw-boxes {
         display: flex;
